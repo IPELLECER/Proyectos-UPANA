@@ -1,42 +1,42 @@
 # Informe de Requerimientos del Sistema
 
 ## Nombre del sistema
-**Sistema de Gestión de Clientes y Servicios para el Taller Mecánico**
+**Sistema de Gestión de Usuarios y Seguridad para la Empresa Gubernamental CIA**
 
 ---
 
 ## 1. Introducción
-Este documento detalla los requerimientos funcionales y no funcionales del sistema a desarrollar para un taller mecánico. El sistema busca optimizar el manejo de información relacionada con clientes, vehículos y servicios brindados, a fin de mejorar la eficiencia operativa y la atención al cliente.
+Este documento detalla los requerimientos funcionales y no funcionales del sistema a desarrollar para la empresa gubernamental CIA. El sistema busca optimizar la gestión de usuarios, la seguridad de la información y la administración de accesos con el fin de garantizar la integridad de los datos y la eficiencia operativa.
 
 ---
 
 ## 2. Objetivo del sistema
-Diseñar e implementar un sistema que permita al taller mecánico gestionar de forma ordenada y eficiente los datos de sus clientes, los vehículos que atiende, los servicios ofrecidos, las órdenes de servicio generadas, así como el control de inventario y empleados.
+Diseñar e implementar un sistema que permita gestionar de manera eficiente la información de usuarios, la autenticación y los niveles de acceso dentro de la empresa gubernamental CIA, asegurando altos estándares de seguridad y cumplimiento normativo.
 
 ---
 
 ## 3. Requerimientos funcionales
-1. **Gestión de clientes:** Registrar, editar, eliminar y consultar información de clientes (nombre, dirección, número de teléfono, etc.).
-2. **Gestión de vehículos:** Asociar vehículos a clientes, con detalles como marca, modelo, año, número de placa, etc.
-3. **Gestión de empleados:** Registrar información de empleados, como nombre, cargo, y asociarlos a servicios prestados.
-4. **Gestión de servicios:** Registrar servicios que el taller ofrece, incluyendo nombre del servicio, descripción, precio y duración estimada.
-5. **Creación de órdenes de servicio:** Crear órdenes asociadas a clientes y vehículos, incluyendo los servicios prestados, fechas y responsable.
-6. **Historial de servicios:** Consultar el historial de servicios realizados por cliente y por vehículo.
-7. **Inventario de repuestos:** Registrar productos disponibles en el taller, con información sobre existencias, precios y proveedores.
-8. **Reportes:** Generar reportes de ingresos, servicios más solicitados, rendimiento de empleados, entre otros.
-9. **Control de acceso:** Asignar roles y niveles de acceso (administrador, técnico, recepcionista, etc.).
-10. **Facturación:** Generar facturas automáticamente al finalizar un servicio.
+1. **Gestión de usuarios:** Registrar, editar, eliminar y consultar información de usuarios (nombre, cargo, credenciales de acceso, etc.).
+2. **Control de autenticación:** Implementación de autenticación en dos pasos y encriptación de credenciales.
+3. **Gestión de roles y permisos:** Asignar niveles de acceso y permisos diferenciados (administrador, usuario estándar, auditor, etc.).
+4. **Monitoreo de actividad:** Registro detallado de accesos y acciones realizadas en el sistema.
+5. **Integración con bases de datos seguras:** Uso de MySQL con optimización de consultas y seguridad en almacenamiento de datos.
+6. **Encriptación de datos:** Protección de información sensible mediante algoritmos de cifrado avanzados.
+7. **Gestión de accesos remotos:** Implementación de seguridad en conexiones externas para evitar intrusiones.
+8. **Generación de reportes:** Creación de reportes sobre actividad de usuarios, intentos de acceso fallidos y auditorías de seguridad.
+9. **Respaldo de datos:** Automatización de copias de seguridad y procedimientos de recuperación de datos.
+10. **Cumplimiento normativo:** Asegurar que el sistema cumpla con regulaciones gubernamentales sobre protección de datos.
 
 ---
 
 ## 4. Requerimientos no funcionales
-1. **Seguridad:** El sistema debe proteger la información mediante autenticación y autorización según roles de usuario.
-2. **Disponibilidad:** Debe estar disponible durante el horario laboral del taller (por ejemplo, de 8:00 a 18:00).
-3. **Facilidad de uso:** Debe contar con una interfaz amigable e intuitiva, accesible incluso para usuarios sin conocimientos técnicos.
-4. **Escalabilidad:** Debe permitir futuras actualizaciones o módulos adicionales (por ejemplo, integración con pagos electrónicos).
-5. **Respaldo de datos:** El sistema debe realizar copias de seguridad periódicas para prevenir pérdida de información.
+1. **Seguridad:** Implementación de medidas avanzadas de seguridad para la protección de datos y accesos.
+2. **Disponibilidad:** Garantizar un tiempo de actividad óptimo, con redundancia en servidores críticos.
+3. **Facilidad de uso:** Diseñar una interfaz intuitiva, accesible para empleados con distintos niveles de conocimientos técnicos.
+4. **Escalabilidad:** Posibilidad de integrar nuevos módulos y ampliar la capacidad del sistema en el futuro.
+5. **Mantenimiento eficiente:** Procedimientos claros para actualizaciones y soporte técnico continuo.
 
 ---
 
 ## 5. Conclusión
-La identificación clara de los requerimientos permite establecer una base sólida para el desarrollo del sistema. Esto asegura que las necesidades del taller mecánico sean cubiertas eficientemente, mejorando la organización y el control de sus operaciones diarias.
+Este documento establece una base sólida para el desarrollo del sistema de gestión de usuarios y seguridad para la empresa gubernamental CIA. La correcta identificación de los requerimientos garantizará una implementación eficiente y alineada con los estándares de seguridad exigidos.
